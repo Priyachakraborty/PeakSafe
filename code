@@ -21,14 +21,14 @@ void loop()
   if (distance <= 10) 
         {
         Serial.println (" ALERT !DANGER !!!!!!  ");
-        Serial.print (" Distance= ");              
+        Serial.print (" Distance = ");              
         Serial.println (distance);        
         digitalWrite (buzzer_pin, HIGH);
         delay (500);
         }
   else {
         Serial.println (" YOU ARE SAFE NOW ");
-        Serial.print (" Distance= ");              
+        Serial.print (" Distance = ");              
         Serial.println (distance);        
         digitalWrite (buzzer_pin, LOW);
         delay (500);        
